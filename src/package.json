@@ -1,6 +1,6 @@
 {
     "name": "nativescript-onfido",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "NativeScript plugin for Onfido (currently only iOS)",
     "main": "onfido",
     "typings": "index.d.ts",
