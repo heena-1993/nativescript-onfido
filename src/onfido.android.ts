@@ -1,5 +1,1 @@
-import { Common } from './onfido.common';
-
-export class Onfido extends Common {
-
-}
+export { Onfido } from './onfido.common';
