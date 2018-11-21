@@ -3,7 +3,6 @@
 Plugin for using Onfido in your NativeScript app, IOS and Android (not started yet).
 
 ![FAB Android Screenshot](screens/1.png)
-![FAB iOS Screenshot](screens/2.png)
 ![FAB iOS Screenshot](screens/3.png)
 
 Prerequisites
@@ -26,7 +25,7 @@ tns plugin add nativescript-onfido
 **app.component.html**
 
 ```html
-<Onfido [settings]="settings"></Onfido>
+<Onfido [settings]="onfidoSettings"></Onfido>
 ```
 
 **app.component.ts**

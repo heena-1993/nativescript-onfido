@@ -51,7 +51,9 @@ export class Onfido extends StackLayout {
     new OnfidoMain(settings)
       .setup()
       .then((onfido: UIViewController) => {
-        this.rootVC().presentViewControllerAnimatedCompletion(onfido, true, null);
+        setTimeout(() => {
+          this.rootVC().presentViewControllerAnimatedCompletion(onfido, true, null);
+        });
       }).catch((error: string) => {
         console.log(`[nativescript-onfido]: ERROR: ${error}`);
       });
